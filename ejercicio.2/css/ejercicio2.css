@@ -1,0 +1,189 @@
+
+@font-face {
+    font-family: "Mochiy Pop P One";
+    src:url(../Mochiy_Pop_P_One/MochiyPopPOne-Regular.ttf);
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    justify-content:center;
+    
+}
+
+body{
+    background:#00FFCC;
+    width: 100%;
+    padding: 20px 230px;
+    
+}
+
+header{
+    
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    
+  
+   }
+
+ a{
+    font-size: 20px;
+    text-decoration: none;
+    list-style:none;
+    padding: 10px;
+    z-index: 2;
+    font-weight: bold;
+    margin-top: 30px;
+  
+    
+ 
+        
+ }
+
+
+aside{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    z-index: 2;
+ 
+}
+
+
+
+.imagen{
+    width: 800px;   
+    margin: 50px auto;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:center;
+}
+.imagen img{
+    width: 100%;
+}
+
+.descripcion{
+    width: 70%;
+    text-align: center;
+    margin: 60px auto;
+    
+   
+}
+
+
+.nombre{
+    font-family:"Mochiy Pop P One";
+    src: url(../Mochiy_Pop_P_One/MochiyPopPOne-Regular.ttf);
+    font-size: 50px;
+
+}
+
+ 
+
+ p{
+     padding-top: 20px;
+ }
+
+ .proyectoscss,
+ .proyectoshtml{
+     
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:left;
+ }
+
+ .trabajos{
+     text-align: center;
+     font-family:"Mochiy Pop P One";
+     src: url(../Mochiy_Pop_P_One/MochiyPopPOne-Regular.ttf);
+     font-size: 50px;
+ }
+
+ .encss,
+ .enhtml{
+     margin: 15px;
+     font-size: 35px;
+ }
+
+ .proyecto1{
+    margin: 20px;
+    padding: 20px;
+   background: white;
+   border-radius: 10px;
+
+ }
+
+ .contactame{
+     margin: 40px auto;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    justify-content:center;
+
+ }
+
+ .contactanos{
+    text-align: center;
+    font-family:"Mochiy Pop P One";
+    src: url(../Mochiy_Pop_P_One/MochiyPopPOne-Regular.ttf);
+    font-size: 40px;
+
+ }
+
+ .contactos1{
+     text-align: left;
+     font-size: 35px;
+ }
+
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    align-content: center;
+   
+}
+
+
+.author{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    align-items: center;
+  
+}
+
+
+.copy{
+    width: 15px;
+    height: 15px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+.nombreau{
+    padding-bottom: 13px;
+    padding-left: 5px;
+}
